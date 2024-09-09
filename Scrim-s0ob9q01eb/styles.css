@@ -1,0 +1,158 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+      margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    min-width: 100px;
+    margin: 0 auto;
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+h1 {
+    padding: 15px 15px 5px 15px;
+    background: #1F578F;
+    border-radius: 10px;
+    opacity: 0.8;
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 75px;
+    margin-bottom: 20px
+}
+
+h3 {
+    
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    text-shadow: 0px 0px 5px black;
+    font-family: helvetica;
+    background-color: #8F271F;
+    border-radius: 10px;
+    padding: 10px 10px;
+    opacity: 0.8;
+    margin-top: 10px; 
+    color: white  
+}
+
+h4 {
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero {
+   
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    background-image: url(images/sac.jpg);
+    color: beige;
+    
+}
+
+.info {
+    margin-top: -30px;
+    background-color: #EAEDD3;
+    justify-content: center;
+    align-items: center;
+     padding: 50px;
+    
+    
+    
+}
+
+.info-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#guide{
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 220px;
+    text-align: center;
+    gap: 10px;
+    background: #D4D4FA;
+    border-bottom: 10px solid black;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+#guide-img {
+    margin-left: 30px;
+    width: 180px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+#guide-info {
+  margin: ;
+    
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-caption {
+    font-size: 12px;
+}
+
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100-900;
+  font-style: normal;
+}
+
+
+
+
+
